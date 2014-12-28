@@ -1,5 +1,5 @@
-title:            Yuvaraja Balamurugan
-description:      Describe your website here.
+title:            Boastings of Charizard
+description:      I am known for my character.
 disqus_shortname: hpstrtheme
 reading_time:     true
 words_per_minute: 200
@@ -24,7 +24,7 @@ owner:
   tumblr:         
   # For Google Authorship https://plus.google.com/authorship
   # google plus id, include the '+', eg +mmistakes
-  google_plus:    +yourid
+  google_plus:    
 
 # Background image to be tiled on all pages
 background: 
