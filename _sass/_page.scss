@@ -218,9 +218,6 @@ header .entry-meta {
 			max-width: 800px;
 			margin: 50px auto 30px auto;
 			padding: 50px 80px;
-			> p:first-child {
-				@include font-size(20);
-			}
 		}
 	}
 	#disqus_thread {
@@ -398,6 +395,10 @@ header .entry-meta {
 		margin-right: -80px;
 		margin-bottom: 20px;
 	}
+  a{
+    display: block;
+    text-align: center;
+  }
 	img {
 		@include border-radius(3px,0,0,3px); // round image corners
 	}
