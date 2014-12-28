@@ -1,4 +1,4 @@
-title:            Site Title
+title:            Yuvaraja Balamurugan
 description:      Describe your website here.
 disqus_shortname: hpstrtheme
 reading_time:     true
@@ -9,14 +9,14 @@ url:
 
 # Owner/author information
 owner:
-  name:           Your Name
+  name:           Yuvaraja Balamurugan
   avatar:         avatar.jpg
   bio:            "Your bio goes here. It shouldn't be super long but a good two sentences or two should suffice."
-  email:          you@email.com
+  email:          yuv.slm@gmail.com
   # Social networking links used in footer. Update and remove as you like.
-  twitter:        
-  facebook:       
-  github:         
+  twitter:        "Charizard_"
+  facebook:       "YuviCharizard"
+  github:         "Charizard"
   stackexchange:  
   linkedin:       
   instagram:      
@@ -36,7 +36,7 @@ google_verify:
 bing_verify:         
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    America/New_York
+timezone:    Asia/Calcutta
 future:      true
 highlighter: pygments
 markdown:    kramdown
