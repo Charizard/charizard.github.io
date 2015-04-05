@@ -5,13 +5,13 @@ reading_time:     true
 words_per_minute: 200
 # Your site's domain goes here (eg: //mmistakes.github.io, http://mademistakes.com, etc)
 # When testing locally leave blank or use http://localhost:4000
-url:
+url: http://www.boastingsof.me/
 
 # Owner/author information
 owner:
   name:           Yuvaraja Balamurugan
   avatar:         avatar.jpg
-  bio:            "Your bio goes here. It shouldn't be super long but a good two sentences or two should suffice."
+  bio:            "Hacker, Fake photographer, Coffee lover and Biker"
   email:          yuv.slm@gmail.com
   # Social networking links used in footer. Update and remove as you like.
   twitter:        "Charizard_"

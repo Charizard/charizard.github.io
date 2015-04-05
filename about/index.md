@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About the Jekyll Theme
+title: About Me
 image:
   feature: abstract-5.jpg
   credit: dargadgetz
@@ -9,26 +9,19 @@ comments: false
 modified: 2014-12-24
 ---
 
-They say three times the charm, so here is another free responsive Jekyll blog theme for you. I've learned a ton since open sourcing my first two themes [on Github](http://github.com/mmistakes), and wanted to try a few new things this time around. 
+* I was born on June 15, 1992.
+* Wandered in Salem, Tamil Nadu.
+* Enlightened in College of Engineering, Guindy.
+* Thought myself in Codebrahma.
+* Saving the world in germ.io
 
-If you've used any of [my other themes](http://mademistakes.com/work/jekyll-themes/) most of this should be familiar territory...
+This is me in a few lines. Get in touch with me to know more....
 
-## What HPSTR brings to the table:
+Adress me as "Charizard", that's how I like to be called.
 
-* Responsive templates for post, page, and post index `_layouts`. Looks great on mobile, tablet, and desktop devices.
-* Gracefully degrads in older browsers. Compatible with Internet Explorer 8+ and all modern browsers.  
-* Modern and minimal design.
-* Sweet animated menu.
-* Background image support.
-* Readable typography to make your words shine.
-* Support for large images to call out your favorite posts.
-* Built-in support for Sass courtesy of Jekyll 2.x.
-* Optional [Disqus](http://disqus.com) comments.
-* Simple and clear permalink structure[^1].
-* [Open Graph](https://developers.facebook.com/docs/opengraph/) and [Twitter Cards](https://dev.twitter.com/docs/cards) support for a better social sharing experience.
-* Simple [custom 404 page]({{ site.url }}/404.html) to get you started.
-* Stylesheets for Pygments and Coderay [syntax highlighting]({{ site.url }}/code-highlighting-post/) to make your code examples look snazzy.
+Mail me at yuv.slm{at}gmail{dot}com
 
-<div markdown="0"><a href="{{ site.url }}/theme-setup/" class="btn btn-info">Theme Setup</a> <a href="https://github.com/mmistakes/hpstr-jekyll-theme" class="btn btn-success">Download HPSTR</a></div>
-
-[^1]: Example: *domain.com/category-name/post-title*
+<div markdown="0">
+  <a href="https://github.com/Charizard" target="_blank" class="btn btn-info">Github</a>
+  <a href="http://stackoverflow.com/users/2678080/charizard" target="_blank" class="btn btn-info">Stackoverflow</a>
+</div>
