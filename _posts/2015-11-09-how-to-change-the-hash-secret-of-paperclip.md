@@ -5,10 +5,6 @@ tags:
 - paperclip
 - rails
 - migration
-image:
-  feature: abstract-1.jpg
-  credit: dargadgetz
-  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
 ---
 
 Recently, In Paperclip (4.1.1) I had to change the `hash_secret`, which is used for the purpose of [URI Obfuscation](https://github.com/thoughtbot/paperclip#uri-obfuscation). But, the problem was that there had been many files in production generated with the old `hash_secret`. Simply just changing the `hash_secret` would invalidate all the old URL's as paperclip does not store the URL's of the files instead it generates using the `path` option given to it (which would obviously contain the `:hash` interpolation).
