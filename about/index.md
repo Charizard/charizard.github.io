@@ -22,6 +22,7 @@ Adress me as "Charizard", that's how I like to be called.
 Mail me at yuv.slm{at}gmail{dot}com
 
 <div markdown="0">
+  <a href="https://twitter.com/Charizard" target="_blank" class="btn btn-info">Twitter</a>
   <a href="https://github.com/Charizard" target="_blank" class="btn btn-info">Github</a>
   <a href="http://stackoverflow.com/users/2678080/charizard" target="_blank" class="btn btn-info">Stackoverflow</a>
 </div>
