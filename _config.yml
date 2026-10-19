@@ -52,3 +52,6 @@ kramdown:
   toc_levels: 1..6
 
 exclude: ["Gemfile", "Gemfile.lock", "README.md", "LICENSE", "vendor", "node_modules"]
+
+# Path to your resume PDF (shown as a download on the Experience page and in the links)
+resume: /assets/Yuva_Resume.pdf

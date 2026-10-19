@@ -1,26 +1,119 @@
-# Newest first. Only `company` is required; the rest are optional.
-# Source: LinkedIn public profile (partial) and GitHub. Fill in dates and roles as needed.
+# Newest first. Source: resume (assets/Yuva_Resume.pdf) plus LinkedIn for the current role.
+summary: >-
+  Engineering leader with over 10 years of industry experience leading global teams in the insurance domain.
+  Expertise in scalable software architecture, insurtech solutions and cloud infrastructure. Managed a €2.6M
+  engineering budget with consistent monthly revenue of over €250K. I align technology with business objectives,
+  work closely with cross-functional stakeholders, and mentor engineers and engineering leaders.
+
 jobs:
   - company: OptymEdge
     location: Bengaluru, India
     period: Present
-  - company: CLARK
-    location: Frankfurt, Germany
-    role: Director of Engineering
-    summary: Worked here for five years, ending as Director of Engineering.
-  - company: germ.io
+
+  - company: CLARK Germany
+    role: Engineering Manager & Director of Engineering
+    period: Jul 2023 – Mar 2025
+    location: Frankfurt am Main, Germany
+    points:
+      - Led a global engineering team of 20 people across 3 teams, managing Swiss and UK insurance applications built with React Native and Elixir.
+      - Defined technical strategy and partnered with Engineering Managers and Senior Staff Engineers to optimize architecture.
+      - Managed €2.6M of annual engineering costs, ensuring resource efficiency and scalability while generating €250K a month.
+      - Mentored engineering managers, building a leadership pipeline, and owned performance management and promotions for my teams.
+      - Advocated for non-functional requirements (NFRs), increasing performance and scalability.
+    achievements:
+      - Built a reusable insurance brokerage application that reduced time to market.
+      - Improved the delivery speed of the engineering teams by 20% while raising quality through continuous delivery practices.
+      - Streamlined quarterly planning with a structured approach that makes it faster for teams to plan and set expectations with management.
+      - Achieved the business goal of €3M revenue for 2024.
+
+  - company: Klarna
+    role: Engineering Manager
+    period: Jan 2023 – Jun 2023
+    location: Berlin, Germany
+    points:
+      - Led the Delivery Tracking team (5 engineers) in the Shopping Experience domain, optimizing API performance for order tracking.
+      - Developed scalable cloud services with AWS and Kubernetes (ECS).
+      - Owned performance management and promotions for my team, and got one engineer promoted in the annual compensation review.
+      - Supported and managed the on-call rotations for the team's services.
+
+  - company: CLARK Germany
+    role: Senior Frontend Engineer & Engineering Manager
+    period: Aug 2019 – Dec 2022
+    location: Frankfurt am Main, Germany
+    points:
+      - Optimized SDLC processes and introduced TDD, reducing production bugs by 30%.
+      - Mentored a team of 7 engineers, enabling career growth and skill development.
+      - Took part in formal internal design reviews of proposed products and components.
+      - Owned end-to-end product development following DevOps practices, turning roadmaps into scalable solutions with Ember.js and Ruby on Rails.
+    achievements:
+      - Moved the sales pipeline to Salesforce within 3 months, resulting in a 20% increase in revenue.
+      - Led the release of a new product line to expand into the Austrian market.
+
+  - company: Upwork
+    role: Freelance Software Developer
+    period: Mar 2017 – May 2019
+    location: Bengaluru, India
+    points:
+      - Led client engagements to build 4 MVPs and to scale a revenue-generating product for growth.
+      - Oversaw a startup's migration from a monolith to an Ember.js SPA with a Rails API backend, adding features and fixing modeling along the way.
+      - Managed features end to end, from ideation to deployment and maintenance, following DevOps practices.
+
+  - company: germ.io / Zepel.io
+    role: Product Developer
+    period: Dec 2014 – Feb 2017
+    location: Bengaluru, India
+    points:
+      - Owned multiple major features, including social authentication and integrating a WYSIWYG editor.
+      - Championed a TDD approach across the entire Rails backend.
+      - Contributed to multiple open source projects.
+
   - company: Codebrahma
+    role: Web Developer
+    period: Jun 2013 – Nov 2014
+    location: Bengaluru, India
+    points:
+      - Owned multiple projects end to end, including a student-mentor connecting app and a payroll application called Quickchex.
+      - Led a team of two at KADU Collect, a fintech startup based in Colombia.
+      - Contributed to multiple open source projects.
 
 education:
   - school: Frankfurt School of Finance & Management
-    period: 2021 – 2023
-  - school: College of Engineering, Guindy (Anna University)
+    degree: MBA
+    period: "2022"
+  - school: College of Engineering, Guindy
+    degree: B.Tech, Information Technology
     period: 2009 – 2013
 
+skills:
+  - group: Technology
+    items: [Ruby, Ruby on Rails, JavaScript, TypeScript, SQL, HTML, CSS, React, React Native, Node.js, Elixir (Phoenix), REST, Git/GitHub, AWS (RDS, EKS, EC2), Kubernetes]
+  - group: Leadership
+    items: [Engineering strategy, Cross-functional collaboration, Stakeholder management, Performance management, Budgeting and estimates, Capacity planning, Incident management]
+  - group: Architecture and delivery
+    items: [Cloud-native applications, CI/CD automation, Insurtech systems, Software architecture, KPIs, ROI-driven engineering, Agile, Distributed systems, DevOps]
+
+open_source:
+  - name: ember-cli-lunr
+    url: https://github.com/Charizard/ember-cli-lunr
+    summary: An ember-cli plugin that wraps lunr.js, a browser-based alternative to a search server.
+  - name: relative.vim
+    url: https://github.com/Charizard/relative.vim
+    summary: A Vim plugin to navigate between code and tests in a Rails project.
+  - name: Constantizable
+    summary: A Rails gem for querying constant tables and their objects.
+  - name: Contributions
+    summary: Ember.js, Ember Guides, Ember Blog and Ember Simple Auth.
+
 certifications:
-  - name: "Transitioning from Manager to Leader"
-    issuer: LinkedIn Learning
-    date: May 2025
   - name: "CKAD: Certified Kubernetes Application Developer"
     issuer: The Linux Foundation
     date: Dec 2020 (expired Dec 2023)
+  - name: "Transitioning from Manager to Leader"
+    issuer: LinkedIn Learning
+    date: May 2025
+
+societies:
+  - name: Organiser, Bangalore chapter of the Ember.js meetup
+    period: "2019"
+  - name: Organiser, ITrix, the IT department's tech symposium at my alma mater
+    period: 2012 – 2013

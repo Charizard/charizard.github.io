@@ -1,3 +1,4 @@
 {%- if site.owner.github %}<li><a href="https://github.com/{{ site.owner.github }}" rel="me">GitHub</a></li>{% endif -%}
 {%- if site.owner.stackoverflow %}<li><a href="https://stackoverflow.com/users/{{ site.owner.stackoverflow }}" rel="me">Stack Overflow</a></li>{% endif -%}
 {%- if site.owner.linkedin %}<li><a href="https://linkedin.com/in/{{ site.owner.linkedin }}" rel="me">LinkedIn</a></li>{% endif -%}
+{%- if site.resume %}<li><a href="{{ site.resume | relative_url }}" download>Resume</a></li>{% endif -%}

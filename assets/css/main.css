@@ -124,3 +124,9 @@ div.highlighter-rouge, figure.highlight { margin: 0 0 1.25rem; }
 .plain { list-style: none; padding: 0; }
 .plain li { margin-bottom: .75rem; }
 .page h2 { font-size: 1.1rem; color: var(--muted); border-bottom: 1px solid var(--line); padding-bottom: .25rem; margin-top: 2.5rem; }
+.timeline ul { padding-left: 1.1rem; margin: .5rem 0; }
+.timeline li li { padding: 0; margin-bottom: .3rem; font-size: .97rem; }
+.timeline li li::before { display: none; }
+.sub { font-size: .8rem; text-transform: uppercase; letter-spacing: .05em; color: var(--muted); margin: .75rem 0 0; }
+.skills dt { font-weight: 600; margin-top: .75rem; }
+.skills dd { margin: .3rem 0 0; }

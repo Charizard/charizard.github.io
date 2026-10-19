@@ -16,7 +16,8 @@ A bit of background:
 * Born on June 15, 1992.
 * Wandered in Salem, Tamil Nadu.
 * Enlightened at College of Engineering, Guindy.
-* Taught myself at Codebrahma.
-* Saving the world in germ.io.
+* Learned the ropes as a web developer at Codebrahma and germ.io, then freelanced on Upwork.
+* Led engineering teams at CLARK and Klarna in Germany.
+* Did an MBA at the Frankfurt School of Finance & Management.
 
 That's me in a few lines. See my [experience]({{ '/experience/' | relative_url }}) or [get in touch]({{ '/contact/' | relative_url }}).
