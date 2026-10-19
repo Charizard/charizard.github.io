@@ -1,13 +1,26 @@
-# Newest first. `role` and `summary` are optional; add them as you like.
-- company: germ.io
-  period: ""
-  role: ""
-  summary: ""
-- company: Codebrahma
-  period: ""
-  role: ""
-  summary: ""
-- company: College of Engineering, Guindy
-  period: ""
-  role: Education
-  summary: ""
+# Newest first. Only `company` is required; the rest are optional.
+# Source: LinkedIn public profile (partial) and GitHub. Fill in dates and roles as needed.
+jobs:
+  - company: OptymEdge
+    location: Bengaluru, India
+    period: Present
+  - company: CLARK
+    location: Frankfurt, Germany
+    role: Director of Engineering
+    summary: Worked here for five years, ending as Director of Engineering.
+  - company: germ.io
+  - company: Codebrahma
+
+education:
+  - school: Frankfurt School of Finance & Management
+    period: 2021 – 2023
+  - school: College of Engineering, Guindy (Anna University)
+    period: 2009 – 2013
+
+certifications:
+  - name: "Transitioning from Manager to Leader"
+    issuer: LinkedIn Learning
+    date: May 2025
+  - name: "CKAD: Certified Kubernetes Application Developer"
+    issuer: The Linux Foundation
+    date: Dec 2020 (expired Dec 2023)
