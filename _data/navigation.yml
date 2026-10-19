@@ -1,7 +1,10 @@
-# Menu navigation links
-
-# - title: Theme Setup
-#   url: /theme-setup/
-
-# - title: External Link
-#   url: http://mademistakes.com
+- title: Projects
+  url: /projects/
+- title: Experience
+  url: /experience/
+- title: Blog
+  url: /posts/
+- title: About
+  url: /about/
+- title: Contact
+  url: /contact/

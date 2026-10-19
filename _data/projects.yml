@@ -1,0 +1,37 @@
+# Add projects here; set `featured: true` to show one on the home page.
+# Source: github.com/Charizard
+- name: ember-cli-lunr
+  summary: Simple full-text search for ember-cli apps using lunr.js. My most-starred open source project.
+  url: https://github.com/Charizard/ember-cli-lunr
+  tags: [Ember, JavaScript, Search]
+  featured: true
+- name: relative.vim
+  summary: A Vim plugin to easily navigate between specs and the actual code.
+  url: https://github.com/Charizard/relative.vim
+  tags: [Vim, Developer tools]
+  featured: true
+- name: nf.vim
+  summary: A Vim plugin for creating new files and folders, and my first one.
+  url: https://github.com/Charizard/nf.vim
+  tags: [Vim, Developer tools]
+  featured: true
+- name: ember-weather-app
+  summary: Experimental weather app to try out Ember Octane and Tailwind CSS.
+  url: https://github.com/Charizard/ember-weather-app
+  tags: [Ember, Tailwind CSS]
+- name: Pokedex
+  summary: A Pokedex app using the PokeApi, built to learn React Native.
+  url: https://github.com/Charizard/Pokedex
+  tags: [React Native, TypeScript]
+- name: react-native-blog-crud
+  summary: A basic blog CRUD learning app built with React Native and TypeScript.
+  url: https://github.com/Charizard/react-native-blog-crud
+  tags: [React Native, TypeScript]
+- name: ktor-todo
+  summary: A todo app for learning the Ktor framework from the official guides.
+  url: https://github.com/Charizard/ktor-todo
+  tags: [Kotlin, Ktor]
+- name: Music-Tagger
+  summary: An Android app that fixes music file tags using Gracenote's fingerprinting.
+  url: https://github.com/Charizard/Music-Tagger
+  tags: [Android, Java]

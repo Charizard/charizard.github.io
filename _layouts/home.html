@@ -1,0 +1,24 @@
+---
+layout: default
+---
+<section class="hero">
+  <img class="avatar" src="{{ '/images/' | append: site.owner.avatar | relative_url }}" alt="{{ site.owner.name }}" width="96" height="96">
+  <h1>{{ site.owner.name }}</h1>
+  <p class="lede">{{ site.tagline }}</p>
+  <ul class="links">{% include social-links.html %}<li><a href="mailto:{{ site.owner.email }}">Email</a></li></ul>
+</section>
+
+{{ content }}
+
+{%- assign featured = site.data.projects | where: "featured", true %}
+{%- if featured.size > 0 %}
+<section class="section">
+  <div class="section-head"><h2>Projects</h2><a href="{{ '/projects/' | relative_url }}">All projects →</a></div>
+  {% include project-cards.html projects=featured %}
+</section>
+{%- endif %}
+
+<section class="section">
+  <div class="section-head"><h2>Latest writing</h2><a href="{{ '/posts/' | relative_url }}">All posts →</a></div>
+  {% include post-list.html posts=site.posts limit=5 %}
+</section>

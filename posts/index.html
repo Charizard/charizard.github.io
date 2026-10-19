@@ -1,32 +1,14 @@
 ---
-layout: post-index
-title: All Posts
-description: "An archive of posts."
-comments: false
+layout: page
+title: Boastings of Charizard
+lede: Notes on programming, mostly Ruby, JavaScript and Android.
+permalink: /posts/
 ---
 
-{% for post in site.posts %}
-    {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
-    {% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
+{%- assign by_year = site.posts | group_by_exp: "p", "p.date | date: '%Y'" %}
+{%- for year in by_year %}
+<h2 class="year">{{ year.name }}</h2>
+{% include post-list.html posts=year.items %}
+{%- endfor %}
 
-    {% if forloop.first %}
-    <article>
-      <h2 id="{{ this_year }}-ref">{{ this_year }}</h2>
-      <ul>
-    {% endif %}
-
-        <li class="entry-title"><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
-
-    {% if forloop.last %}
-      </ul>
-    </article>
-    {% else %}
-        {% if this_year != next_year %}
-          </ul>
-        </article>
-        <article>
-          <h2 id="{{ next_year }}-ref" class="year-heading">{{next_year}}</h2>
-          <ul>
-        {% endif %}
-    {% endif %}
-{% endfor %}
+<p class="meta"><a href="{{ '/tags/' | relative_url }}">Browse by tag →</a> · <a href="{{ '/feed.xml' | relative_url }}">RSS</a></p>

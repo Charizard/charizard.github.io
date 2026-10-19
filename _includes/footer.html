@@ -1,1 +1,18 @@
-<span>&copy; {{ site.time | date: '%Y' }} {{ site.owner.name }}. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> using the <a href="http://mademistakes.com/hpstr/" rel="notfollow">HPSTR Theme</a>.</span>
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <span>&copy; {{ site.time | date: '%Y' }} {{ site.owner.name }}</span>
+    <ul class="links">
+      {% include social-links.html %}
+      <li><a href="{{ '/feed.xml' | relative_url }}">RSS</a></li>
+    </ul>
+  </div>
+</footer>
+<script>
+  document.querySelector('.theme-toggle').addEventListener('click', function () {
+    var root = document.documentElement;
+    var dark = root.dataset.theme ? root.dataset.theme === 'dark' : matchMedia('(prefers-color-scheme: dark)').matches;
+    var next = dark ? 'light' : 'dark';
+    root.dataset.theme = next;
+    try { localStorage.setItem('theme', next); } catch (e) {}
+  });
+</script>
