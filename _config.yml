@@ -1,17 +1,17 @@
-title:            Boastings of Charizard
-description:      The official blog post of Charizard_, just another programmer
+title:            Yuvaraja Balamurugan
+tagline:          "Engineering leader with 10+ years of experience building and scaling software teams across Europe and India. JS and Ruby enthusiast, currently diving into agentic AI."
+description:      "Portfolio and blog of Yuvaraja Balamurugan (Charizard), an engineering leader and JS and Ruby enthusiast."
+blog_title:       Boastings of Charizard
 disqus_shortname: charizardjekyllblog
-reading_time:     true
 words_per_minute: 200
-# Your site's domain goes here (eg: //mmistakes.github.io, http://mademistakes.com, etc)
-# When testing locally leave blank or use http://localhost:4000
-url: http://charizard.in
+# Your site's domain goes here. Jekyll overrides this with http://localhost:<port> in development.
+url: https://charizard.github.io
 
 # Owner/author information
 owner:
   name:           Yuvaraja Balamurugan
   avatar:         avatar.jpg
-  bio:            "Hacker, Fake photographer, Coffee lover and Biker"
+  bio:            "Engineering leader, JS and Ruby enthusiast"
   email:          yuv.slm@gmail.com
   # Social networking links used in footer. Update and remove as you like.
   twitter:        "Charizard_"
@@ -23,12 +23,7 @@ owner:
   instagram:      
   flickr:         
   tumblr:         
-  # For Google Authorship https://plus.google.com/authorship
-  # google plus id, include the '+', eg +mmistakes
-  google_plus:    
 
-# Background image to be tiled on all pages
-background: 
 
 # Analytics and webmaster tools stuff goes here
 google_analytics: UA-60490434-1
@@ -38,10 +33,9 @@ bing_verify:
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    Asia/Calcutta
-future:      true
-highlighter: pygments
+future:      false
 markdown:    kramdown
-gems:
+plugins:
   - jekyll-sitemap
 sass:
   sass_dir: _sass
@@ -50,22 +44,11 @@ sass:
 # https://github.com/mojombo/jekyll/wiki/Permalinks
 permalink:   /:categories/:title/
 
-# Amount of post to show on home page
-paginate: 5
 
 kramdown:
   auto_ids: true
   footnote_nr: 1
   entity_output: as_char
   toc_levels: 1..6
-  use_coderay: true
 
-  coderay:
-    coderay_line_numbers: nil
-    coderay_line_numbers_start: 1
-    coderay_tab_width: 4
-    coderay_bold_every: 10
-    coderay_css: class
-
-include: [".htaccess"]
-exclude: ["lib", "config.rb", "Capfile", "config", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
+exclude: ["Gemfile", "Gemfile.lock", "README.md", "LICENSE", "vendor", "node_modules"]
